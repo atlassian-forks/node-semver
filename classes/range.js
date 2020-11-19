@@ -4,7 +4,7 @@ class Range {
     if (!options || typeof options !== 'object') {
       options = {
         loose: !!options,
-        includePrerelease: false
+        includePrerelease: true
       }
     }
 

@@ -15,7 +15,7 @@ const version = require('../package.json').version
 
 let loose = false
 
-let includePrerelease = false
+let includePrerelease = true
 
 let coerce = false
 

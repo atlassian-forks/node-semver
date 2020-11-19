@@ -8,7 +8,7 @@ class SemVer {
     if (!options || typeof options !== 'object') {
       options = {
         loose: !!options,
-        includePrerelease: false
+        includePrerelease: true
       }
     }
     if (version instanceof SemVer) {
